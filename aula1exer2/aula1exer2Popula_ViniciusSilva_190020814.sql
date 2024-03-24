@@ -1,3 +1,20 @@
+-- -------- aula1exer2 --------
+--
+--          SCRIPT POPULA
+--
+-- Data Criacao ...........: 23/03/2024
+-- Autor(es) ..............: Vinicius Roriz Meireles Silva
+-- Banco de Dados .........: MySQL 8.0
+-- Base de Dados (nome) ...: aula1exer2
+--
+-- PROJETO => 01 Base de Dados
+--         => 08 Tabelas
+-- 
+-- Ultimas Alteracoes
+--   23/03/2024 => Criacao do script
+--
+-- ---------------------------------------------------------
+
 INSERT INTO PESSOA VALUES
     (00000000000, 'Ana', 'senha1'),
     (11111111111, 'Jorge', 'senha2'),
