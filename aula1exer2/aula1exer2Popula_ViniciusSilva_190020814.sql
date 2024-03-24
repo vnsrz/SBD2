@@ -16,22 +16,22 @@
 -- ---------------------------------------------------------
 
 INSERT INTO PESSOA VALUES
-    (00000000000, 'Ana', 'senha1'),
-    (11111111111, 'Jorge', 'senha2'),
-    (22222222222, 'Gustavo', 'senha3'),
-    (33333333333, 'Claudio', 'senha4'),
-    (44444444444, 'Felipe', 'senha5'),
-    (55555555555, 'Mariana', 'senha6');
+    (15400299130, 'Ana', 'senha1'),
+    (68134121160, 'Jorge', 'senha2'),
+    (62460904193, 'Gustavo', 'senha3'),
+    (65239317143, 'Claudio', 'senha4'),
+    (81698740174, 'Felipe', 'senha5'),
+    (20336797133, 'Mariana', 'senha6');
 
 INSERT INTO EMPREGADO VALUES
-    (1901111111, 11111111, 'Casa 1', 61932164675, 00000000000),
-    (2001111111, 11111112, 'Casa 2', 61965785838, 11111111111),
-    (2101111111, 11111113, 'Casa 3', 61935846892, 22222222222);
+    (1901111111, 71071212, 'Casa 1', 61932164675, 15400299130),
+    (2001111111, 72318102, 'Casa 2', 61965785838, 68134121160),
+    (2101111111, 72316309, 'Casa 3', 61935846892, 62460904193);
 
 INSERT INTO GERENTE VALUES
-    ('claudio@mail.com', 33333333333, 'Ensino medio'),
-    ('felipe@mail.com', 44444444444, 'Ensino superior'),
-    ('mariana@mail.com', 55555555555, 'Ensino superior');
+    ('claudio@mail.com', 65239317143, 'Ensino medio'),
+    ('felipe@mail.com', 81698740174, 'Ensino superior'),
+    ('mariana@mail.com', 20336797133, 'Ensino superior');
 
 INSERT INTO SETOR VALUES
     (1, 'claudio@mail.com'),
