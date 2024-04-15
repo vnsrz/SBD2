@@ -1,11 +1,11 @@
--- -------- < aula1exer2Evolucao3 > --------
+-- -------- < aula1exer2Evolucao4 > --------
 --
 --                    SCRIPT DE CONTROLE
 --
 -- Data Criacao ...........: 24/03/2024
 -- Autor(es) ..............: Vinicius Roriz Meireles Silva                          
 -- Banco de Dados .........: MySQL 8.0
--- Base de Dados (nome) ...: aula1exer2Evolucao3
+-- Base de Dados (nome) ...: aula1exer2Evolucao4
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
@@ -14,26 +14,26 @@
 --   04/04/2024 => Atribui usuários a roles, remove o localhost dos usuários
 -- ---------------------------------------------------------
 
-USE aula1exer2Evolucao3;
+USE aula1exer2Evolucao4;
 
 CREATE ROLE empregado, gerente, superior;
 
-GRANT SELECT ON aula1exer2Evolucao3.* TO empregado;
-GRANT INSERT ON aula1exer2Evolucao3.VENDA TO empregado;
-GRANT INSERT ON aula1exer2Evolucao3.CONTEM TO empregado;
-GRANT INSERT ON aula1exer2Evolucao3.PRODUTO TO empregado;
+GRANT SELECT ON aula1exer2Evolucao4.* TO empregado;
+GRANT INSERT ON aula1exer2Evolucao4.VENDA TO empregado;
+GRANT INSERT ON aula1exer2Evolucao4.CONTEM TO empregado;
+GRANT INSERT ON aula1exer2Evolucao4.PRODUTO TO empregado;
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.AREA TO gerente;
-GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.VENDA TO gerente;
-GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.PRODUTO TO gerente;
-GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.CONTEM TO gerente;
-GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.TELEFONE TO gerente;
+GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.AREA TO gerente;
+GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.VENDA TO gerente;
+GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.PRODUTO TO gerente;
+GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.CONTEM TO gerente;
+GRANT SELECT, INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.TELEFONE TO gerente;
 
-GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.PESSOA TO gerente;
-GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.EMPREGADO TO gerente;
-GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao3.GERENTE TO gerente;
+GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.PESSOA TO gerente;
+GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.EMPREGADO TO gerente;
+GRANT INSERT, UPDATE, DELETE ON aula1exer2Evolucao4.GERENTE TO gerente;
 
-GRANT ALL ON aula1exer2Evolucao3.* TO superior;
+GRANT ALL ON aula1exer2Evolucao4.* TO superior;
 
 CREATE USER 'admins'@'%' IDENTIFIED BY '1admin';
 

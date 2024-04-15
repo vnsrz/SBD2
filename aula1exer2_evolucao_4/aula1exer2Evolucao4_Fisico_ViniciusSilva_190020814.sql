@@ -1,4 +1,4 @@
--- -------- < aula1exer2Evolucao3 > --------
+-- -------- < aula1exer2Evolucao4 > --------
 --
 --                    SCRIPT DE CRIACAO (DDL)
 --
@@ -6,7 +6,7 @@
 -- Autor(es) ..............: Izabella Alves Pereira
 --                           Vinicius Roriz Meireles Silva
 -- Banco de Dados .........: MySQL 8.0
--- Base de Dados (nome) ...: aula1exer2Evolucao3
+-- Base de Dados (nome) ...: aula1exer2Evolucao4
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
@@ -18,8 +18,8 @@
 --   10/04/2024 => Adiciona ON DELETE CASCADE em TELEFONE e CONTEM, ON UPDATE CASCADE em TELEFONE
 -- ---------------------------------------------------------
 
-CREATE DATABASE IF NOT EXISTS aula1exer2Evolucao3;
-USE aula1exer2Evolucao3;
+CREATE DATABASE IF NOT EXISTS aula1exer2Evolucao4;
+USE aula1exer2Evolucao4;
 
 CREATE TABLE PESSOA (
     cpf VARCHAR(11) NOT NULL,

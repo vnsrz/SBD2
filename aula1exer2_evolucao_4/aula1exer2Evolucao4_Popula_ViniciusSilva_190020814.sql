@@ -1,4 +1,4 @@
--- -------- < aula1exer2Evolucao3 > --------
+-- -------- < aula1exer2Evolucao4 > --------
 --
 --                    SCRIPT DE POPULAR (DML)
 --
@@ -6,7 +6,7 @@
 -- Autor(es) ..............: Izabella Alves Pereira
 --                           Vinicius Roriz Meireles Silva
 -- Banco de Dados .........: MySQL 8.0
--- Base de Dados (nome) ...: aula1exer2Evolucao3
+-- Base de Dados (nome) ...: aula1exer2Evolucao4
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
@@ -14,10 +14,10 @@
 -- Ultimas Alteracoes
 --   29/03/2024 => Evolução          
 --   04/04/2024 => Insere mais tuplas em todas as tabelas
---   10/04/2024 => Insere tupla Variedades em AREA
+--   10/04/2024 => Insere AREA Variedades, PRODUTO Estalinho 
 -- ---------------------------------------------------------
 
-USE aula1exer2Evolucao3;
+USE aula1exer2Evolucao4;
 
 INSERT INTO PESSOA (cpf, nome, senha) VALUES
 ('67123458901', 'João Silva', '456789'),
@@ -105,7 +105,8 @@ VALUES
 ('Bola', 50.00, 8),
 ('Livro', 60.00, 9),
 ('Borracha', 10.00, 10),
-('Caderno', 25.00, 10);
+('Caderno', 25.00, 10),
+('Estalinho', 5.00, 11);
 
 INSERT INTO VENDA (data, totalVenda, matriculaEmpregado)
 VALUES
