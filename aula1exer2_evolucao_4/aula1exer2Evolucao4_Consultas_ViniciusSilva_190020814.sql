@@ -2,7 +2,7 @@
 --
 --                    SCRIPT DE POPULAR (DML)
 --
--- Data Criacao ...........: 24/03/2024
+-- Data Criacao ...........: 12/04/2024
 -- Autor(es) ..............: Izabella Alves Pereira
 --                           Vinicius Roriz Meireles Silva
 -- Banco de Dados .........: MySQL 8.0

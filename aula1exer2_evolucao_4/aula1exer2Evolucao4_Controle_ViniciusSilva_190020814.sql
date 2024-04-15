@@ -9,6 +9,7 @@
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
+--         => 01 View
 -- 
 -- Ultimas Alteracoes
 --   04/04/2024 => Atribui usuários a roles, remove o localhost dos usuários

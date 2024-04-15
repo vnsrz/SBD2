@@ -10,6 +10,7 @@
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
+--         => 01 View
 -- 
 -- Ultimas Alteracoes
 --   29/03/2024 => Evolução          

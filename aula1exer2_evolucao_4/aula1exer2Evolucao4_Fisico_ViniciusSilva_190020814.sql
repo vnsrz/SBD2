@@ -10,7 +10,7 @@
 --
 -- PROJETO => 01 Base de Dados
 --         => 08 Tabelas
-
+--         => 01 View
 -- 
 -- Ultimas Alteracoes
 --   29/03/2024 => Evolução            
@@ -64,7 +64,7 @@ CREATE TABLE TELEFONE (
     CONSTRAINT TELEFONE_EMPREGADO_FK FOREIGN KEY (matriculaEmpregado) 
         REFERENCES EMPREGADO(matricula)
         ON DELETE CASCADE 
-        ON UPDATE CASCADE;
+        ON UPDATE CASCADE
 ) ENGINE = InnoDB;
 
 
