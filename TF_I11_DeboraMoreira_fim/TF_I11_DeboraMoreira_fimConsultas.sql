@@ -22,12 +22,14 @@
 USE employees;
 
 -- View 1: Funcionários por Gênero
+-- Mostra a quantidade de funcionários para cada gênero.
 CREATE OR REPLACE VIEW v_emp_by_gender AS
 SELECT gender, COUNT(*) AS total
 FROM employees
 GROUP BY gender;
 
 -- View 2: Histórico de Salários por Funcionário
+-- Mostra todos os salários que cada empregado ja teve.
 CREATE OR REPLACE VIEW v_salary_history AS
 SELECT e.emp_no, e.first_name, e.last_name, s.salary, s.from_date, s.to_date
 FROM employees e
@@ -35,6 +37,7 @@ JOIN salaries s ON e.emp_no = s.emp_no
 ORDER BY e.emp_no, s.from_date;
 
 -- View 3: Histórico de Títulos por Funcionário
+-- Mostra todos os títulos que cada empregado ja teve.
 CREATE OR REPLACE VIEW v_title_history AS
 SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
 FROM employees e
@@ -42,6 +45,7 @@ JOIN titles t ON e.emp_no = t.emp_no
 ORDER BY e.emp_no, t.from_date;
 
 -- View 4: Títulos atuais de cada funcionário
+-- Lista todos os empregados que possuem um título atualmente.
 CREATE OR REPLACE VIEW v_current_employee_titles AS
     SELECT e.emp_no, e.first_name, e.last_name, t.title, t.from_date, t.to_date
     FROM employees e
@@ -49,6 +53,7 @@ CREATE OR REPLACE VIEW v_current_employee_titles AS
     WHERE t.to_date  = '9999-01-01';
 
 -- View 5: Funcionários atuais com seus salários mais recentes
+-- Lista todos os empregados que possuem um salário atualmente.
 CREATE OR REPLACE VIEW v_current_employee_salaries AS
     SELECT e.emp_no, e.first_name, e.last_name, s.salary, s.from_date, s.to_date
     FROM employees e
