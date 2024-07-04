@@ -1,3 +1,30 @@
+-- -------- < TF_I11_DeboraMoreira > --------
+--
+--                    SCRIPT DE CRIACAO (DDL)
+--
+-- Data Criacao ...........: 03/07/2024
+-- Autor(es) ..............: Débora Caires de Souza Moreira
+-- 							 Vinícius Roriz Meireles Silva
+-- Banco de Dados .........: MySQL
+-- Base de Dados (nome) ...: employees
+--
+-- PROJETO => 01 Base de Dados
+--         => 06 Tabelas
+--         => 05 Views
+-- 
+-- Ultimas Alteracoes
+--   10/06/2024 => Criação do script
+--              => Criação das tabelas dept_emp,
+--                   				   dept_manager,
+--                   				   title,
+--                   				   salaries,
+--                   				   employees,
+--                   				   departments;
+--   03/07/2024 => Ajustes na apresentacao da documentacao
+--                 desse script.
+--
+-- ---------------------------------------------------------
+
 DROP DATABASE IF EXISTS employees;
 CREATE DATABASE IF NOT EXISTS employees;
 USE employees;
